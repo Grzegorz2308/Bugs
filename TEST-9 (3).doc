@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#TEST-9] Wyszukiwarka dostawców nie wyszukuje dostawców zapisanych wielkimi literami z polskimi znakami.</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://greg23.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TEST-9]&nbsp;<a href="https://greg23.atlassian.net/browse/TEST-9">Wyszukiwarka dostawców nie wyszukuje dostawców zapisanych wielkimi literami z polskimi znakami.</a>
+            <span class="subText">
+               Utworzono: 08/sie/22                   &nbsp;Zaktualizowano: 07/lis/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://greg23.atlassian.net/secure/BrowseProject.jspa?id=10000">TEST</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="6284f01e0685de006fd17f2c"
+                id="word_reporter_6284f01e0685de006fd17f2c"
+                href="https://greg23.atlassian.net/secure/ViewProfile.jspa?accountId=6284f01e0685de006fd17f2c">
+                    Magic Greg 23
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10008-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Wyszukiwarka                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows 10 , Przeglądarka Brave 1.45.118</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://greg23.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="Plik">
+                    MrBuggy7_KonS0QpJBp.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Data:</b></td>
+                <td id="customfield_10034-10008-value" class="value" bgcolor="#ffffff" width="80%">          <span title="09/sie/22"><time datetime="2022-08-09">09/sie/22</time></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10008-value" class="value" bgcolor="#ffffff" width="80%">Tablica Sprint 1</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10008-value" class="value" bgcolor="#ffffff" width="80%">      0|i0001b:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Wyszukiwarka z zakładki <b>Providers</b> nie wyszukuje nazw dostawców , w których znajdują się polskie znaki oraz jest zapisany wielkimi literami np. KRÓL</p>
+
+<h2><a name="Warunekwst%C4%99pny%3A"></a>Warunek wstępny:</h2>
+
+<ol>
+	<li>Użytkownik posiada konto aby zalogować się w aplikacji</li>
+</ol>
+
+
+<h2><a name="Listakrok%C3%B3wdoreprodukcji%3A"></a>Lista kroków do reprodukcji:</h2>
+
+<ol>
+	<li>Uruchomienie aplikacji i zalogowanie się do niej</li>
+	<li>Otwarcie zakładki <b>Providers</b> w górnym rogu</li>
+	<li>Dodanie nowego klienta wielkimi literami oraz z polskimi znakami np. KRÓL</li>
+	<li>Wpisanie w wyszukiwarce klienta np. KRÓL</li>
+</ol>
+
+
+
+
+<h2><a name="Rzeczywistyrezultat%3A"></a>Rzeczywisty rezultat:</h2>
+
+<ol>
+	<li>Po wpisaniu w wyszukiwarce nazwy klienta ,która składa się z wielkich liter oraz polskich znaków nie otrzymamy pożądanego rezultatu w postaci nazwy klienta , którego wyszukujemy np. KRÓL</li>
+</ol>
+
+
+<h2><a name="Oczekiwanyrezultat%3A"></a>Oczekiwany rezultat:</h2>
+
+<ol>
+	<li>Po wpisaniu nazwy klienta ,która składa się z wielkich liter raz polskich znaków , pojawi się oczekiwany rezutat w postaci nazwy klienta, którego szukamy np.KRÓL</li>
+</ol>
+
+
+<h2><a name="Za%C5%82%C4%85czniki%3A"></a>Załączniki:</h2>
+
+<p><div class="embeddedObject"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" data="/secure/attachment/10002/10002_MrBuggy7_KonS0QpJBp.mp4?stream=true" height="558" type="video/mp4" width="998" ><param name="data" value="/secure/attachment/10002/10002_MrBuggy7_KonS0QpJBp.mp4?stream=true"/><param name="src" value="/secure/attachment/10002/10002_MrBuggy7_KonS0QpJBp.mp4?stream=true"/><param name="type" value="video/mp4"/><embed height="558" pluginspage="https://www.apple.com/quicktime/download/" src="/secure/attachment/10002/10002_MrBuggy7_KonS0QpJBp.mp4?stream=true" type="video/mp4" width="998" /></object></div></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Wygenerowane (Thu Nov 10 12:30:45 UTC 2022) przez Magic Greg 23 z użyciem systemu Jira 1001.0.0-SNAPSHOT#100210-sha1:583150f45e96fe66b2cb2898eb1e9ae5719d8732.
+
+</body>
+</html>
